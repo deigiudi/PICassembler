@@ -1,0 +1,10 @@
+andwf .112,.1
+clrw
+clrf .8
+nop
+btfsc .18,.3
+addlw .13
+goto .2
+retfie
+return
+END

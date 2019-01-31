@@ -1,0 +1,6 @@
+bsf .2,.7
+comf .1,.1
+iorlw .128
+sleep
+movf .81,.0
+END

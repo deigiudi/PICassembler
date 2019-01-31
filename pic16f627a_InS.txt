@@ -1,0 +1,38 @@
+35
+2 addwf   7 0 1 7 7 8
+2 andwf   7 0 1 7 5 8
+1 clrf    7 0 3 7
+0 clrw    2 7
+2 comf    7 0 1 7 9 8
+2 decf    7 0 1 7 3 8
+2 decfsz  7 0 1 7 11 8
+2 incf    7 0 1 7 10 8
+2 incfsz  7 0 1 7 15 8
+2 iorwf   7 0 1 7 4 8
+2 movf    7 0 1 7 8 8
+1 movwf   7 0 1 7
+0 nop     0 0
+2 rlf     7 0 1 7 13 8
+2 rrf     7 0 1 7 12 8
+2 subwf   7 0 1 7 2 8
+2 swapf   7 0 1 7 14 8
+2 xorwf   7 0 1 7 6 8
+
+2 bcf     7 0 3 7 4 10 
+2 bsf     7 0 3 7 5 10
+2 btfsc   7 0 3 7 6 10
+2 btfss   7 0 3 7 7 10
+
+1 addlw   8 0 31 9
+1 andlw   8 0 57 8
+1 call    11 0 4 11
+0 clrwdt  100 0
+1 goto    11 0 5 11
+1 iorlw   8 0 56 8
+1 movlw   8 0 12 10
+0 retfie  9 0
+1 retlw   8 0 13 10
+0 return  8 0
+0 sleep   99 0
+1 sublw   8 0 30 9
+1 xorlw   8 0 58 8
